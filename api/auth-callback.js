@@ -69,7 +69,7 @@ export default async (req, res) => {
   const APP_ID = process.env.APP_ID;
   const APP_SECRET = process.env.APP_SECRET;
   const REDIRECT_URI =
-    "https://threads-backend-nine.vercel.app/api/auth-callback";
+    "https://threads-backend-theta.vercel.app/api/auth-callback";
   const GRAPH_API_VERSION = "v1.0";
 
   // Log environment variables (mask sensitive data)
